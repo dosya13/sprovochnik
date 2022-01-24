@@ -1,1 +1,17 @@
-<li><a href="{% url 'main/templates/index.html' %}">Расценки</a></li>
+
+{% extends 'main/base.html' %}
+{% block title %}
+
+{{title}}
+{% endblock %}
+
+    <div class="features">
+
+
+
+</div>
+ <li><a href="{% url 'main/templates/index.html' %}">Расценки</a></li>
+        {% for el in tasks %}
+
+    {% endfor %}
+
